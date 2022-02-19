@@ -1,3 +1,19 @@
 Link para download do Git: https://git-scm.com/downloads
 O Git Bash é um terinal extendido para otimizar o uso do Git.
 
+*comando mkdir = cria uma pasta direto pelo Git Bash;
+*comando echo = cria um arquivo dentro da pasta direto pelo Git Bash;
+*comando del = deleta os arquivos dentro da pasta direto do Git Bash;
+*comando rmdir = deleta uma pasta direto do Git Bash;
+
+Objetos do Git: Blobs (contém metadados do arquivo); Tree (armazena Blobs); Commit (junta Tree e Blobs);
+
+Chaves SSH: pwd (mostra o caminho completo do arquivo aberto no Git Bash); eval $ (ssh-agent -s) (gera uma chave); ls (mostra as chaves); ssh-add id (cria chave privada);
+
+*criando repositório: 
+	mkdir (cria pasta no Git Bash)
+	git init (inicia um repositório - .git(oculto) )
+	git add * (adiciona todas as modificações do repositório)
+	git commit -m + "nome do commit"
+	git push origin main (envia os dados para o GitHub)
+
