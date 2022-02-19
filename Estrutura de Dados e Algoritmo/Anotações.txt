@@ -1,0 +1,11 @@
+*Vetores e Matrizes = arrays
+
+*Vetores = array unidimensional
+
+*Matriz = array multidimensional
+Ex: matriz 4/3 = 4 colunas e 3 linhas
+
+*Registro nos permite armazenar dados de tipos diferentes
+
+
+
